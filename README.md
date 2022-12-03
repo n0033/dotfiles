@@ -10,5 +10,11 @@ This is a dotfiles repository, for the use with an aliased git bare repo.
 ### Prevent showing untracked files
 `dotfiles config --local status.showUntrackedFiles no`
 
+## Git cheat sheet
+
 ### Add the repository folder to gitignore - prevent recursion
 `echo ".dotfiles" >> .gitignore`
+
+### Merge only one file from another branch
+`git checkout -m <branch_name> <yourfilepath>`
+
