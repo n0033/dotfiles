@@ -106,7 +106,12 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+# clusters alias to display available kubernetes clusters
 alias clusters="cat ~/.kube/config | grep cluster: | grep '^[^-]'"
+
+# alias for dotfiles git bare repository in ~/.dotfiles
+alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
@@ -118,3 +123,14 @@ fi
 export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
 eval $(thefuck --alias)
 alias dotfiles=/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME
+
+[ -f "/Users/norbertwyszkowski/.ghcup/env" ] && source "/Users/norbertwyszkowski/.ghcup/env" # ghcup-env
+
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="$HOME/.sdkman"
+[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
+
+# bit
+export PATH="$PATH:/Users/norbertwyszkowski/bin"
+# bit end
