@@ -1,0 +1,39 @@
+{
+  "git.autofetch": true,
+  "autoDocstring.docstringFormat": "sphinx",
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "editor.parameterHints.enabled": false,
+  "json.maxItemsComputed": 1000000,
+  "editor.largeFileOptimizations": false,
+  "editor.quickSuggestions": {
+    "other": false,
+    "comments": false,
+    "strings": false
+  },
+  "git.enableCommitSigning": true,
+  "redhat.telemetry.enabled": true,
+  "editor.tabSize": 2,
+  "go.toolsManagement.autoUpdate": true,
+  "editor.inlineSuggest.enabled": true,
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": true,
+    "plaintext": false,
+    "markdown": true
+  },
+  "vscode-neovim.neovimExecutablePaths.darwin": "/opt/homebrew/bin/nvim",
+  "editor.lineNumbers": "relative",
+  "vscode-neovim.neovimInitVimPaths.darwin": "~/.config/nvim/init.vim",
+  "files.associations": {
+    ".env": "shellscript"
+  },
+  "files.insertFinalNewline": true,
+  "editor.formatOnSave": true,
+  "python.formatting.yapfArgs": [
+    "--style",
+    "yapf"
+  ],
+  "python.formatting.provider": "yapf",
+  "editor.detectIndentation": false
+}
