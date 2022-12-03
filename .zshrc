@@ -126,11 +126,10 @@ alias dotfiles=/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME
 
 [ -f "/Users/norbertwyszkowski/.ghcup/env" ] && source "/Users/norbertwyszkowski/.ghcup/env" # ghcup-env
 
+# bit
+export PATH="$PATH:/Users/norbertwyszkowski/bin"
+# bit end
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="$HOME/.sdkman"
 [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
-
-# bit
-export PATH="$PATH:/Users/norbertwyszkowski/bin"
-# bit end
