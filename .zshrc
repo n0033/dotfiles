@@ -122,7 +122,6 @@ if type rg &> /dev/null; then
 fi
 export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
 eval $(thefuck --alias)
-alias dotfiles=/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME
 
 [ -f "/Users/norbertwyszkowski/.ghcup/env" ] && source "/Users/norbertwyszkowski/.ghcup/env" # ghcup-env
 
