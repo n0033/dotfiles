@@ -1,5 +1,5 @@
 # dotfiles
-This is a dotfiles repository, for usage with an aliased git bare repo.
+This is a dotfiles repository, for the use with an aliased git bare repo.
 
 ### Initialisation
 `git init --bare ~/.dotfiles`
