@@ -15,6 +15,9 @@ This is a dotfiles repository, for the use with an aliased git bare repo.
 ### Add the repository folder to gitignore - prevent recursion
 `echo ".dotfiles" >> .gitignore`
 
+### Fetch remote branch and put it in local one
+`git fetch <remote_repo> <remote_branch>:<local_branch>`
+
 ### Merge only one file from another branch
 `git checkout -m <branch_name> <yourfilepath>`
 
