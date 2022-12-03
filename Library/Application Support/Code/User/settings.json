@@ -35,5 +35,7 @@
     "yapf"
   ],
   "python.formatting.provider": "yapf",
-  "editor.detectIndentation": false
+  "editor.detectIndentation": false,
+  "haskell.manageHLS": "GHCup",
+  "haskell.ghcupExecutablePath": "/Users/norbertwyszkowski/.ghcup/bin/ghcup"
 }
