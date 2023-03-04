@@ -117,4 +117,5 @@ if type rg &> /dev/null; then
 fi
 export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
 eval $(thefuck --alias)
+export VCPKG_ROOT="$HOME/vcpkg"
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
