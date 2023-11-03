@@ -17,10 +17,11 @@
   "go.toolsManagement.autoUpdate": true,
   "editor.inlineSuggest.enabled": true,
   "github.copilot.enable": {
-    "*": true,
-    "yaml": true,
+    "*": false,
     "plaintext": false,
-    "markdown": true
+    "markdown": true,
+    "scminput": false,
+    "yaml": true
   },
   "vscode-neovim.neovimExecutablePaths.darwin": "/opt/homebrew/bin/nvim",
   "editor.lineNumbers": "relative",

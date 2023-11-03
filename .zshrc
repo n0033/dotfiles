@@ -107,6 +107,8 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias clusters="cat ~/.kube/config | grep cluster: | grep '^[^-]'"
+alias notes="cd ~/notes/"
+alias cd-shared='cd "/Users/n033/Library/Mobile Documents/com~apple~CloudDocs/shared"'
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
@@ -119,3 +121,4 @@ export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
 eval $(thefuck --alias)
 export VCPKG_ROOT="$HOME/vcpkg"
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+alias lvim="/Users/n033/.local/bin/lvim"
