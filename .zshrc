@@ -123,7 +123,7 @@ eval $(thefuck --alias)
 #
 # alias for dotfiles git bare repository in ~/.dotfiles
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
-alias cd-shared='cd "/Users/norbertwyszkowski/Library/Mobile Documents/com~apple~CloudDocs"'
+alias cd-shared='cd "/Users/norbertwyszkowski/Library/Mobile Documents/com~apple~CloudDocs/shared"'
 
 
 # bit
