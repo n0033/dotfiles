@@ -12,9 +12,7 @@
     "strings": false
   },
   "git.enableCommitSigning": true,
-  "redhat.telemetry.enabled": true,
   "editor.tabSize": 2,
-  "go.toolsManagement.autoUpdate": true,
   "editor.inlineSuggest.enabled": true,
   "github.copilot.enable": {
     "*": true,
@@ -37,5 +35,19 @@
   "python.formatting.provider": "yapf",
   "editor.detectIndentation": false,
   "haskell.manageHLS": "GHCup",
-  "haskell.ghcupExecutablePath": "/Users/norbertwyszkowski/.ghcup/bin/ghcup"
+  "haskell.ghcupExecutablePath": "/Users/norbertwyszkowski/.ghcup/bin/ghcup",
+  "security.workspace.trust.untrustedFiles": "open",
+  "redhat.telemetry.enabled": false,
+  "[cpp]": {
+    "editor.defaultFormatter": "xaver.clang-format"
+  },
+  "gitlens.advanced.messages": {
+    "suppressCommitNotFoundWarning": true
+  },
+  "haskell.checkProject": false,
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "notebook.lineNumbers": "on",
+  "go.toolsManagement.autoUpdate": true
 }
